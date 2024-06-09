@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* Header styles */
+header {
+    position: relative;
+    background-color: rgb(231, 137, 14);
+    
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(20, 2, 2);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(27, 9, 9);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    color: red;
+}
+
+/* Main sections styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.background-image {
+    background-image: url('https://images.pexels.com/photos/14936124/pexels-photo-14936124.jpeg?cs=srgb&dl=pexels-ann-h-45017-14936124.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(231, 137, 14);
+    padding: 20px;
+    text-align: center;
+}
